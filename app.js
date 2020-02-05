@@ -74,7 +74,7 @@ form.addEventListener('keyup', e =>{
     e.preventDefault();
     const empty = '';
     const userValue = form.filmName.value.trim();
-    //form.reset();
+    
     if(userValue === '')
     {
         filmBox.innerHTML = empty;    

@@ -1,0 +1,152 @@
+body,html{
+    width:100%;
+    margin: 0;
+    padding: 0;
+}
+
+@media only screen and (min-width:1440px) {
+.inputFilm{
+    display: flex;
+    justify-content: center;
+    font-size:20px;
+    margin:50px 0 100px;
+    
+}
+
+.inputFilm{
+    width: 100%;
+    padding: 20px;
+    background-color:rgb(202, 202, 202);
+}
+
+.filmField{
+    border:1px;
+}
+
+.movieTitle{
+    margin-left:5%;
+}
+.filmBox{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width:100%;
+}
+
+.filmDetails{
+    display: flex;
+    width: 50%;
+
+}
+
+.filmImg img{
+    padding: 20px;
+    margin-top:50px;
+}
+
+.aboutFilm{
+    padding: 50px;
+    margin-left:50px;
+}
+
+.header{
+    width:50%;
+    padding: 15px;
+    color:#fff;
+    background-color: rgb(10, 10, 10);
+}
+
+.tableFilmInfo tr td{
+    padding: 3px;
+    
+}
+
+.filmInfo{
+    color:gray;
+}
+
+.actorsInfo{
+    width:50%;
+    padding: 15px;
+    color:#fff;
+    background-color: rgb(10, 10, 10);
+}
+
+}
+
+
+@media only screen and (max-width:1440px) and (min-width:320px) {
+    .inputFilm{
+        display: flex;
+        justify-content: center;
+        font-size:20px;
+        margin:50px 0 50px;
+        
+    }
+    
+    .inputFilm{
+        width: 100%;
+        padding: 20px;
+        background-color:rgb(202, 202, 202);
+    }
+    
+    .filmField{
+        border:1px;
+        margin-top:10px;
+    }
+    
+    .movieTitle{
+        margin-left:5%;
+        width: 100%;
+    }
+    .filmBox{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        width:100%;
+    }
+    
+    .filmDetails{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    
+    }
+    .filmImg{
+        margin: auto;
+    }
+    .filmImg img{
+        padding: 20px;
+        margin-top:50px;
+        
+    }
+    
+    .aboutFilm{
+        padding: 50px;
+        margin-bottom: 15px;
+    }
+    
+    .header{
+        width:100%;
+        padding: 15px;
+        color:#fff;
+        background-color: rgb(10, 10, 10);
+    }
+    
+    .tableFilmInfo tr td{
+        padding: 3px;
+        
+    }
+    
+    .filmInfo{
+        color:gray;
+    }
+    
+    .actorsInfo{
+        width:100%;
+        padding: 15px;
+        color:#fff;
+        background-color: rgb(10, 10, 10);
+    }
+    
+}

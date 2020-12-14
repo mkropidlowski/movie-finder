@@ -1,5 +1,7 @@
 body,html{
     width:100%;
+    height: 100%;
+    background:linear-gradient(to bottom, rgb(209, 209, 209), rgb(177, 177, 177));
     margin: 0;
     padding: 0;
 }
@@ -9,13 +11,13 @@ body,html{
     display: flex;
     justify-content: center;
     font-size:20px;
-    margin:50px 0 100px;
+    margin:50px 0 50px;
     
 }
 
 .inputFilm{
     width: 100%;
-    padding: 20px;
+    padding: 10px;
     background-color:rgb(202, 202, 202);
 }
 
@@ -62,7 +64,7 @@ body,html{
 }
 
 .filmInfo{
-    color:gray;
+    color:#fff;
 }
 
 .actorsInfo{
@@ -81,8 +83,11 @@ body,html{
         justify-content: center;
         font-size:20px;
         margin:50px 0 50px;
+
         
     }
+
+
     
     .inputFilm{
         width: 100%;
@@ -93,6 +98,10 @@ body,html{
     .filmField{
         border:1px;
         margin-top:10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
     }
     
     .movieTitle{
